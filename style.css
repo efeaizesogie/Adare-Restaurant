@@ -74,7 +74,7 @@ body {
 
 .footer-text {
   padding: 32px 0;
-  background-color: #3d1a026b;
+  background-color: #3d1a02d8;
   font-size: 8px;
   color: #e0e0e0;
 }
@@ -106,7 +106,7 @@ body {
     font-size: 36px;
   }
   .nav-link {
-    padding: 0 4px;
-    font-size: 6px;
+    padding: 0 6px;
+    font-size: 8px;
   }
 }
