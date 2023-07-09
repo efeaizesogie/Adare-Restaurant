@@ -67,11 +67,13 @@ body {
 
 .main-heading {
   font-size: 80px;
+  margin-bottom: 0.3em;
 }
 
 .para {
   font-size: 18px;
   font-family: monospace;
+  margin-bottom: 2em;
 }
 
 .map-section {
@@ -116,6 +118,11 @@ body {
 
   .main-heading {
     font-size: 36px;
+  }
+
+  .para {
+    font-size: 16px;
+    font-family: monospace;
   }
   .nav-link {
     padding: 0 6px;
