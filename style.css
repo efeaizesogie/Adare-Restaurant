@@ -110,3 +110,9 @@ body {
     font-size: 8px;
   }
 }
+
+@media only screen and (max-width: 620px) {
+  body {
+    font-size: 32%;
+  }
+}
