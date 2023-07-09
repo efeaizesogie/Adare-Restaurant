@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  background-color: #030200f3;
+}
+
+body {
+  background-image: url("/images/adrien-olichon-ZgREXhl8ER0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 80em;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 12px;
+}
+
+.logo {
+  width: 84px;
+}
+
+.main-nav {
+  background-color: #3d1a028c;
+  padding: 14px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0 14px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.reserve {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #3d1a02;
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.main-section {
+  padding: 8em 12em 0 12em;
+  margin-bottom: 12px;
+  height: 400px;
+}
+
+.main-heading {
+  font-size: 80px;
+}
+
+.para {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.404);
+
+  text-align: center;
+}
+
+.footer-text {
+  padding: 32px 0;
+  background-color: #3d1a026b;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+  body {
+    font-size: 50%;
+  }
+
+  .frame {
+    width: 80em;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  body {
+    font-size: 36%;
+  }
+
+  /*  .container {
+    width: 540px;
+  } 
+
+  .main-section {
+    padding: 12px 24px 0 24px;
+  } */
+
+  .main-heading {
+    font-size: 36px;
+  }
+  .nav-link {
+    padding: 0 4px;
+    font-size: 10px;
+  }
+}
